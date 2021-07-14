@@ -1,0 +1,19 @@
+.Program{
+    margin-bottom:140px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr ;
+    margin:auto 10px;
+    grid-gap:30px;
+}
+
+
+@media screen and (min-width:810px){
+    .container{
+        margin:auto 100px;
+        grid-template-columns: repeat(2,3fr);
+    }
+}

@@ -1,0 +1,23 @@
+
+
+.ui-header{
+    text-align: center; 
+    margin:100px auto 80px;
+    width:80%;
+    }
+    
+    h2.ui-heading{
+        font-size: 28px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    
+    .ui-text{
+        max-width:600px;
+        font-size: 14px;
+        line-height: 25px;
+        margin: 10px auto;
+    }
+    .dark{
+        color:white !important;
+    }

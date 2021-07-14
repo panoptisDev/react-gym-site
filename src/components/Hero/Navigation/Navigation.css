@@ -1,0 +1,162 @@
+.nav-parent{
+    background-color: rgba(255,255,255,0.1);
+    display:grid;
+    grid-template-rows: 80px;
+    grid-template-columns:1fr 1fr 0px;
+    padding:0 20px;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.nav-parent.active{
+    background-color: white;
+    color:black !important;
+}
+.company{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.close{
+    height:0 !important;
+}
+
+.company-colored{
+    color:#ed563b;
+}
+
+.nav-item{
+    padding:5px 0;
+    border-bottom: 1px solid #eee;
+    transition:0.5s;
+}
+
+.nav-item:hover{
+    background: #eee;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:70px;
+    height: fit-content;
+    left: 50%;
+    border-radius: 5px;
+    width:65%;
+    overflow: hidden;
+    background-color: white;
+    transform: translateX(-50%);
+    font-weight: 500;
+    font-size: 13px;
+    z-index: 1000;
+    letter-spacing: 1px;
+    padding-inline-start: 0px;
+}
+.links .button{
+    height:25px;
+    background-color: #ed563b;
+    padding:8px 24px;
+    color:white;
+    white-space: nowrap;
+    line-height: 24px;
+}
+
+
+.hamburger{
+    margin-left: auto;
+}
+
+.line{
+    display: block;
+    width: 30px;
+    height: 4px;
+    border-radius: 5px;
+    margin: 7px 0px;
+    background-color: white;
+}
+.line-first{
+margin-top:0;
+}
+.line-third{
+    margin-bottom: 0;
+}
+.nav-item:last-child{
+    border-bottom: none;
+}
+
+.nav-link{
+    color:black;
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.active{
+    color:#ed563b !important;
+}
+
+.button.active{
+    color:white;
+}
+.nav-first{
+    padding-left:0;
+}
+.nav-last{
+    padding:0;
+}
+.nav-link.button:hover{
+    color:white !important;
+}
+
+@media screen and (min-width:810px) {
+    .nav-parent{
+        padding:0 100px;
+    }
+    .links{
+        flex-direction: row;
+        top:95px;
+        width: fit-content;
+        padding-inline-start: 0;
+        background-color: unset;
+    }
+    .hamburger{
+        display: none;
+    }
+    .nav-item{
+        padding:0 15px;
+        border:none;
+    }
+    .nav-item:hover{
+        background:none ;
+    }
+    .nav-link:hover{
+        color:#ed563b !important;
+    }
+    .nav-last{
+        padding-right: 0;
+    }
+    .nav-link{
+        color:white;
+    }
+    .company{
+        font-size: 25px;
+    }
+   
+}
+@media screen and (min-width:1066px) {
+    .nav-parent{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .links{
+        position: unset;
+        transform: none;
+        grid-column: 3;
+    }
+}

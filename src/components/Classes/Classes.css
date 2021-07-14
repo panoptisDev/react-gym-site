@@ -1,0 +1,41 @@
+.Classes{
+    margin-bottom:140px;
+}
+.classes-container{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap: 30px;
+}
+.classes-buttons{
+    margin:auto 30px;
+}
+
+.extra-button{
+    padding:20px 30px;
+    width:100%;
+    border:none;
+    font-size: 15px;
+    color:white;
+    background-color:#ed563b;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+@media screen and (min-width:810px) {
+    .classes-container{
+        grid-template-columns: 1fr 2fr;
+        margin:auto 50px ;
+    }
+    .classes-buttons{
+        margin:unset;
+    }
+    .extra-button,.special-button{
+        font-size: 19px;
+    }
+    
+}
+@media screen and (min-width:1024px){
+    .classes-container{
+        margin:auto 100px;
+    }
+}

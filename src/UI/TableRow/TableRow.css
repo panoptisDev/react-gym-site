@@ -1,0 +1,16 @@
+.TableRow td{
+text-align: center;
+border:1px solid white;
+height: 80px;
+font-size: 10px;
+text-transform: capitalize;
+letter-spacing: 0.25px;
+padding: 0 10px;
+}
+
+@media screen and (min-width:810px) {
+    .TableRow td{
+        font-size: 13px;
+        height: 100px;
+    }
+}

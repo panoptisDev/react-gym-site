@@ -1,0 +1,31 @@
+.CreateMember{
+    padding:120px 0;
+    background:url('../../images/cta-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    background-position: center center;
+    text-align: center;
+}
+.member-header{
+    font-size: 36px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin:0px auto;
+}
+.child-member{
+    width:90%;
+    margin:auto;
+}
+
+.member-text{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 30px 0px 25px 0px;
+}
+
+@media screen and (min-width:810px) {
+    .child-member{
+        width:70%;
+    }
+}

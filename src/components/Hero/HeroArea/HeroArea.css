@@ -1,0 +1,36 @@
+.HeroArea{
+    width:80%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.hero-title{
+    margin:0px;
+    font-weight: 800;
+    font-size:15px;
+    letter-spacing: 0.5px;
+}
+.hero-header{
+    font-weight: 800;
+    font-size:40px;
+    letter-spacing: 1px;
+    margin:30px auto 25px auto; 
+}
+
+@media screen and (min-width:810px) {
+    .hero-title{
+        font-size: 18px;
+    }
+    .hero-header{
+        font-size: 64px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .hero-header{
+        font-size: 84px;
+    }
+}

@@ -1,0 +1,30 @@
+.ui-card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    padding: 40px;
+}
+
+.card-tag{
+    display: inline-block;
+    color:#ed563b;
+    margin:25px 0 10px 0;
+    font-size: 13px;
+}
+.card-heading{
+    font-size: 19px;
+    font-weight: 600;
+    color: #232d39;
+    letter-spacing: 0.5px;
+   margin:0;
+}
+.card-content{
+    font-size: 14px;
+    line-height: 25px;
+    color: #7a7a7a;
+    margin-bottom:10px;
+}
+
+.trainer-pic{
+    width:100%;
+}

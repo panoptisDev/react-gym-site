@@ -1,0 +1,10 @@
+
+.hero-button{
+    background-color: #ed563b;
+    border:none;
+    color:white;
+    padding:14px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

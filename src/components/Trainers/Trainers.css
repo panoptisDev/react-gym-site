@@ -1,0 +1,23 @@
+.Trainers{
+    padding-bottom: 140px;
+}
+
+.trainer-cards{
+    display: grid;
+    margin: 0 30px;
+    grid-template-columns:1fr;
+    grid-gap: 30px;
+    grid-row-gap:60px;
+    justify-content: center;
+}
+
+@media screen and (min-width:900px){
+    .trainer-cards{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+@media screen and (min-width:810px){
+    .trainer-cards{
+        margin:0 100px;
+    }
+}

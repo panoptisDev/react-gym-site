@@ -1,0 +1,36 @@
+.Schedule{
+    box-sizing: content-box;
+    padding: 1px 0px 140px 0px;
+    background-image: url('../../images/schedule-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+.schedule-filter{
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+.schedule-filter li{
+    margin-right: 10px;
+    font-size: 13px;
+    display: inline;
+    cursor: pointer;
+}
+
+.table{
+    width:80%;
+    margin:40px auto 0 auto;
+    border-collapse: collapse;
+}
+
+@media  screen and (min-width:810px) {
+    .schedule-filter li{
+        font-size: 15px;
+    }
+    .table{
+        width:60%;
+    }
+}

@@ -1,0 +1,48 @@
+.card{
+    display: flex;
+    margin:20px auto;
+}
+.card #dumble{
+margin-right: 25px;
+height: max-content;
+width: max-content;
+
+}
+.programcard-heading{
+    margin:0;
+    font-size: 19px;
+    color:black;
+    font-weight: 600;
+}
+.sub-text{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.discover{
+    font-size:13px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top:7px;
+}
+
+@media screen and (min-width:810px) {
+    .card #dumble{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:400px) {
+ .card{
+     flex-direction: column;
+     margin-top:0;
+ }   
+ .card #dumble{
+     margin:auto auto 20px auto;
+ }
+ .programcard-heading,.sub-text,.discover{
+    text-align: center;
+ }
+ .discover{
+     display: block;
+ }
+}
